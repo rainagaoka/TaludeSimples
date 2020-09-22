@@ -25,6 +25,7 @@ Public Class TaludeSimples
             'pergunta a frequencia
             Dim espacamento As Double = ed.GetDouble("Qual o espaçamento?").Value
 
+
             'itera de 0 ate o final conforme a frenquencia
             For i = 0 To crista.Length Step espacamento
 
